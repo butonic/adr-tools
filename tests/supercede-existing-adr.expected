@@ -4,12 +4,9 @@ adr new First Record
 docs/0002-first-record.md
 adr new -s 2 Second Record
 docs/0003-second-record.md
-head -10 docs/0002-first-record.md
+head -7 docs/0002-first-record.md
 ---
 title: "2. First Record"
-geekdocRepo: https://github.com/owncloud/ocis
-geekdocEditPath: edit/master/docs/ocis/adr
-geekdocFilePath: 0002-first-record.md
 ---
 
 * Status: superseded by [3. Second Record]({{< ref "0003-second-record.md" >}})

@@ -2,11 +2,10 @@ adr init adrs
 mkdir -p adrs/templates
 cat > adrs/templates/template.md <<EOF
 ---
-title: "NUMBER. [short title of solved problem and solution]"
+title: "{{NUMBER}}. {{TITLE}}"
 geekdocRepo: https://github.com/owncloud/ocis
 geekdocEditPath: edit/master/docs/ocis/adr
-geekdocFilePath: 0005-example.md
-custom: foo
+geekdocFilePath: {{NEWID}}-{{TITLE_SLUG}}.md
 ---
 
 * Status: [proposed | accepted | deprecated | superseded by [ADR-0005](0005-example.md) | …] <!-- optional -->

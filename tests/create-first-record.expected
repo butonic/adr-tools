@@ -5,9 +5,6 @@ docs/0002-the-first-decision.md
 cat docs/0002-the-first-decision.md
 ---
 title: "2. The First Decision"
-geekdocRepo: https://github.com/owncloud/ocis
-geekdocEditPath: edit/master/docs/ocis/adr
-geekdocFilePath: 0002-the-first-decision.md
 ---
 
 * Status: proposed

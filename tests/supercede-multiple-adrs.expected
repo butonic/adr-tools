@@ -6,23 +6,17 @@ adr new Second Record
 docs/0003-second-record.md
 adr new -s 2 -s 3 Third Record
 docs/0004-third-record.md
-head -10 docs/0002-first-record.md
+head -7 docs/0002-first-record.md
 ---
 title: "2. First Record"
-geekdocRepo: https://github.com/owncloud/ocis
-geekdocEditPath: edit/master/docs/ocis/adr
-geekdocFilePath: 0002-first-record.md
 ---
 
 * Status: superseded by [4. Third Record]({{< ref "0004-third-record.md" >}})
 * Deciders: [list everyone involved in the decision] <!-- optional -->
 * Date: 1992-01-12
-head -10 docs/0003-second-record.md
+head -7 docs/0003-second-record.md
 ---
 title: "3. Second Record"
-geekdocRepo: https://github.com/owncloud/ocis
-geekdocEditPath: edit/master/docs/ocis/adr
-geekdocFilePath: 0003-second-record.md
 ---
 
 * Status: superseded by [4. Third Record]({{< ref "0004-third-record.md" >}})

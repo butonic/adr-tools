@@ -26,12 +26,9 @@ ls doc/adr
 0007-seventh-decision.md
 0008-eighth-decision.md
 0009-ninth-decision.md
-head -10 doc/adr/0009-ninth-decision.md
+head -7 doc/adr/0009-ninth-decision.md
 ---
 title: "9. Ninth Decision"
-geekdocRepo: https://github.com/owncloud/ocis
-geekdocEditPath: edit/master/docs/ocis/adr
-geekdocFilePath: 0009-ninth-decision.md
 ---
 
 * Status: proposed
