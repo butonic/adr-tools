@@ -1,8 +1,5 @@
 ---
-title: "NUMBER. [short title of solved problem and solution]"
-geekdocRepo: https://github.com/owncloud/ocis
-geekdocEditPath: edit/master/docs/ocis/adr
-geekdocFilePath: 0005-example.md
+title: "{{NUMBER}}. {{TITLE}}"
 ---
 
 * Status: [proposed | accepted | deprecated | superseded by [ADR-0005](0005-example.md) | …] <!-- optional -->

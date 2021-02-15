@@ -1,8 +1,5 @@
 ---
 title: "1. Use Markdown Architectural Decision Records"
-geekdocRepo: https://github.com/owncloud/ocis
-geekdocEditPath: edit/master/docs/ocis/adr
-geekdocFilePath: 0001-use-markdown-architectural-decision-records.md
 ---
 
 * Status: accepted
