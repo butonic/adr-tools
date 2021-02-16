@@ -1,11 +1,7 @@
-**Superseded by [log4brains](https://github.com/thomvaill/log4brains)**
+Hugo Markdown ADR Tools
+=======================
 
-ADR Tools
-=========
-
-A command-line tool for working with a log of [Architecture Decision Records][ADRs] (ADRs).
-
-[![Build Status](https://travis-ci.org/npryce/adr-tools.svg?branch=master)](https://travis-ci.org/npryce/adr-tools)
+A command-line tool for working with a log of [Architecture Decision Records][ADRs] (ADRs) that plays well with the a static page generator like Hugo.
 
 Quick Start
 -----------
