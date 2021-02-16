@@ -11,10 +11,7 @@ updated_status="$link_type [$target_title]({{< ref \"$(basename $target)\" >}})"
 
 if [ "$link_type" != "supersedes" ] 
 then
-# TODO don't hardcode line 9
 sed -i "s/^\* Status: \(.*\)/\* Status: $updated_status/" $("$adr_bin_dir/_adr_file" "$1")
-
-#awk -v n=10 -v s="* Status: $updated_status" '(NR==n) { print s }{ print } ' "$source" > "$source.tmp" && mv "$source.tmp" "$source"
 fi
 
 if [ "$link_type" == "superseded by" ]
